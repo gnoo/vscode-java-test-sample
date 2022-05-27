@@ -27,6 +27,7 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13'
     testImplementation group: 'org.mockito', name: 'mockito-inline', version: '4.5.1'
+    implementation group: 'net.bytebuddy', name: 'byte-buddy', version: '1.12.9'
 }
 
 application {
